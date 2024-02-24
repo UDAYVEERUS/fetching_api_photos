@@ -33,7 +33,7 @@ const App = () => {
                 <div className='flex justify-center'>
                   <img className='h-72 w-full' src={val.url ? val.url : ""} alt="_blank" />
                 </div>
-                <div className='flex justify-center font-medium'>Title : {val.id}</div>
+                <div className='flex justify-center font-medium'>Title : {val.title}</div>
                 <div className='flex justify-center font-medium'>Price : {val.albumId}</div>
                 {/* <div className='flex justify-center items-center px-2'>{val.description.substring(0, 40) + "..."}</div> */}
               </div>
